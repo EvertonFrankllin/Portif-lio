@@ -17,7 +17,7 @@ const Header = () => {
       </nav>
 
       <div className='btn-cv'>
-      <a href='https://docs.google.com/document/d/1Ub5xfqbGctdT3np-jZ0NHYbR-GJsNeoNIr7mg8AVr98/edit?usp=drive_link' target='blank'><button>Curriculo</button></a>
+      <a href='https://docs.google.com/document/d/1Ub5xfqbGctdT3np-jZ0NHYbR-GJsNeoNIr7mg8AVr98/edit?usp=drive_link' target='blank'><button>Resume</button></a>
 
       </div>
     
