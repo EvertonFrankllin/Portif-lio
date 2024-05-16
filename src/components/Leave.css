@@ -1,0 +1,46 @@
+/*Seção de conteúdos*/
+.front{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 60px;
+    width: 80%;
+    position:relative;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.text{
+    padding: 10px 00px;
+    font-size: 18px;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+  
+}
+
+.HOME{
+    width: 100%;
+    padding: 10px;
+}
+.text p{
+    color: #ccc;
+    text-align: justify;
+}
+
+.text span{
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.container-leave{
+    display: flex;
+    justify-content:right;
+    padding:0 100px;
+}
+

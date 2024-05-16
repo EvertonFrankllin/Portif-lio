@@ -3,10 +3,16 @@ import "./Carreira.css";
 
 const Carreira = () => {
   return (
+    
 
         <section className='Works'>
+            
             <div className="caixa_vazia"></div>
             
+
+
+
+
           <div className='Carreira'>
           <div className="title"><h1>Profissional</h1></div>
           
@@ -21,7 +27,10 @@ const Carreira = () => {
                 </div>
 
                 <div className="Freelancer">
-                    <div className="datas"><h3>2021 - 2023</h3></div>
+                    <div className="datas">
+                        <h3>2021 - 2023</h3>
+                 
+                    </div>
                         <div className="experience">
                         <h3>SUPERVISOR DE TELECOMUNICAÇÔES - JR TELECOM</h3>
                             <p>
@@ -60,7 +69,7 @@ const Carreira = () => {
                 </div>
 
                 <div className="Freelancer">
-                    <div className="datas"><h3>Julho à Outubro - 2017</h3></div>
+                    <div className="datas"><h3>Julho - 2017</h3></div>
                         <div className="experience">
                         <h3>TÉCNICO DE SUPORTE DE COMPUTADORES E REDES DE COMPUTADORES - PREFEITURA DE SOBRADINHO BA</h3>
                             <p>
