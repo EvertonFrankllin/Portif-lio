@@ -1,0 +1,64 @@
+.Works{
+    display: flex;
+    padding: 0px 100px;
+    
+}
+.Works h1{
+    color: rgb(128, 0, 255);
+}
+
+.caixa_vazia{
+    width: 20%;
+    padding: 20px 100px;
+}
+
+.Carreira{
+    width: 70%;
+    padding: 0 10px;
+}
+
+.title{
+    padding-left: 20px;
+    padding-bottom: 50px ;
+}
+
+.Freelancer{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+
+.Freelancer{
+    padding:0 10px ;
+}
+
+.Freelancer h3{
+    background-color: transparent;
+}
+
+.datas{
+    padding: 20px 0;
+    background-color: transparent;
+    width: 200px;
+    
+}
+
+.datas h3::hover {
+    color: blue;    
+}
+
+.experience{
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.experience p {
+    background-color: transparent;
+    color: #ccc;
+    margin: 15px 0;
+}
+.experience:hover{
+    background-color: rgba(86, 136, 252, 0.089);
+}

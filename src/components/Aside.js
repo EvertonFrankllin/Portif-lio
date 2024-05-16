@@ -41,8 +41,8 @@ const Aside = () => {
       <div className='menu'>
       <nav className='MN'>
         <ul>
-            <li className='back'><img src={HOME} alt='IMAGEM DE HOME'></img> - HOME</li>
-            <li className='back'><img src={WORK} alt='IMAGEM DE JOJETOS'></img> - Esperiências</li>
+            <li className='back'><img src={HOME} alt='IMAGEM DE HOME'></img> - Home</li>
+            <li className='back'><img src={WORK} alt='IMAGEM DE JOJETOS'></img> - Experiências</li>
             <li className='back'><img src={PROJECT} alt='IMAGEM DE WORKS'></img> - Projetos</li>
         </ul>
       </nav>
@@ -73,14 +73,6 @@ const Aside = () => {
         </div>
         
       </section>
-
-        <section className='Works'>
-          <h2>Profissional</h2>
-          <div className='Carreira'>
-            <h2>2021 - 2023 </h2>
-            
-          </div>
-        </section>
 
     </aside>
     </div>//container

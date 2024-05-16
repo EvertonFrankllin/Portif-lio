@@ -32,6 +32,7 @@
     display: flex;
     justify-content: space-around;
     margin: 0;
+    color: rgb(128, 0, 255);
 }
 
 
@@ -146,8 +147,3 @@
     font-style: italic;
 }
 
-/*Aqui irei estilizar o menu de carreira*/
-
-.Carreira{
-    display: flex;
-}
