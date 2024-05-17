@@ -1,0 +1,79 @@
+.Jobs{
+    display: flex;
+    padding-top: 0px ;
+    padding-left: 100px;  
+    
+}
+.Jobs h1{
+    color:  rgb(86, 136, 252);
+}
+
+.caixa_vazia_Jobs{
+    width: 20%;
+    padding: 20px 100px;
+}
+
+.Projetos{
+    width: 70%;
+    padding: 50px 55px;
+}
+
+.title_Jobs{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px ;
+}
+
+.Free_Jobs{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-between;
+}
+
+
+
+.Free_Jobs h3{
+    background-color: transparent;
+}
+
+.datas_Jobs{
+    padding: 20px 0;
+    background-color: transparent;
+    width: 200px;
+}
+
+.datas_Jobs img{
+    cursor: pointer;
+    width: 300px;
+}
+
+.datas_Jobs img:hover{
+    scale: (1);
+    box-shadow: 0px 0px 60px .1px rgba(53, 53, 146, 0.342);
+    border-bottom: solid 1px #232649 ;
+    background-color: rgba(101, 141, 235, 0.089);
+}
+
+.experience_Jobs{
+    width: 65%;
+    padding: 20px 10px;
+    border-left: #ccc 1PX solid;
+}
+
+.experience_Jobs p {
+    background-color: transparent;
+    color: #ccc;
+    margin: 20px 0;
+}
+/*
+.experience_Jobs:hover{
+    box-shadow: 0px 0px 60px .1px rgba(53, 53, 146, 0.342);
+    border-bottom: solid 1px #232649 ;
+    background-color: rgba(101, 141, 235, 0.089);
+}
+*/
+.experience_Jobs a{
+    text-decoration: none;
+}
