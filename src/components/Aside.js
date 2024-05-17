@@ -27,10 +27,10 @@ const Aside = () => {
         <div className='line'></div>
         <div className='social'>
 
-          <div className='linkedin'> <a href='https://www.linkedin.com/in/everton-frankllin' target='blank'><img src={LINKEDIN} alt='Imagem do Linkedin'></img></a> </div>
-          <div className='ig'> <a href='https://www.instagram.com/dev_frankk/' target='blank'><img src={IG} alt='imagem do instagram'></img></a>  </div>
-          <div className='git'><a href='https://github.com/EvertonFrankllin' target='blank'> <img src={GH} alt='Imagem do GitHub'></img></a>  </div>
-          <div className='EMAIL'><a href='https://github.com/EvertonFrankllin' target='blank'> <img src={EMAIL} alt='Imagem do EMIAL' title='evertonfrankllin@gmail.com'></img></a>  </div>
+          <div className='linkedin'> <a href='https://www.linkedin.com/in/everton-frankllin' target='blank'  aria-label="/everton-frankllin" > <img src={LINKEDIN} alt='Imagem do Linkedin'></img></a> </div>
+          <div className='ig'> <a href='https://www.instagram.com/dev_frankk/' target='blank'aria-label="@dev_frankk" ><img src={IG} alt='imagem do instagram'></img></a>  </div>
+          <div className='git'><a href='https://github.com/EvertonFrankllin' target='blank' aria-label="/EvertonFrankllin"  > <img src={GH} alt='Imagem do GitHub'></img></a>  </div>
+          <div className='EMAIL'><a href='https://github.com/EvertonFrankllin' target='blank' aria-label="evertonfrankllintrc@gmail.com"  > <img src={EMAIL} alt='Imagem do EMIAL'></img></a>  </div>
 
           
         </div>

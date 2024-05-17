@@ -74,6 +74,11 @@
     background-color: rgba(101, 141, 235, 0.089);
 }
 */
+
+.experience_Jobs h3:hover{
+    color:rgb(48, 127, 224);
+}
+
 .experience_Jobs a{
     text-decoration: none;
 }

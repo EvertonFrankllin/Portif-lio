@@ -4,6 +4,14 @@ import React from 'react';
 import PPT from '../img/PPT.jpg';
 import Pokemon from '../img/pokemon.jpg';
 import CRUD  from '../img/CRUD.jpg';
+import Calculator from'../img/calculator.jpg';
+import Lista_itens from'../img/lista_itens.jpg';
+import mario_game from'../img/mario_game.jpg';
+import previsao_tempo from'../img/previsao_tempo.jpg';
+import R_digital from'../img/R_digital.jpg';
+import sorteio from '../img/sorteio.jpg';
+import tela_login from'../img/tela_login.jpg';
+import Thumb from'../img/thumb.jpg';
 
 import './Project.css';
 
@@ -49,6 +57,118 @@ const Project = () => {
                 <div className="Free_Jobs">
                     <div className="datas_Jobs">
                         <img src={CRUD} alt="Projeto LISTA CRUD"></img>
+                    </div>
+
+                        <div className="experience_Jobs">
+                        <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
+                          <h3>LISTA CRUD - ORGANIZAÇÃO </h3></a>
+                            <p>
+                                Universidade Estácio de Sá
+                            </p>
+                        </div>
+                </div>
+
+                <div className="Free_Jobs">
+                    <div className="datas_Jobs">
+                        <img src={Calculator} alt="Projeto LISTA CRUD"></img>
+                    </div>
+
+                        <div className="experience_Jobs">
+                        <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
+                          <h3>LISTA CRUD - ORGANIZAÇÃO </h3></a>
+                            <p>
+                                Universidade Estácio de Sá
+                            </p>
+                        </div>
+                </div>
+
+                <div className="Free_Jobs">
+                    <div className="datas_Jobs">
+                        <img src={Lista_itens} alt="Projeto LISTA CRUD"></img>
+                    </div>
+
+                        <div className="experience_Jobs">
+                        <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
+                          <h3>LISTA CRUD - ORGANIZAÇÃO </h3></a>
+                            <p>
+                                Universidade Estácio de Sá
+                            </p>
+                        </div>
+                </div>
+
+                <div className="Free_Jobs">
+                    <div className="datas_Jobs">
+                        <img src={mario_game} alt="Projeto LISTA CRUD"></img>
+                    </div>
+
+                        <div className="experience_Jobs">
+                        <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
+                          <h3>LISTA CRUD - ORGANIZAÇÃO </h3></a>
+                            <p>
+                                Universidade Estácio de Sá
+                            </p>
+                        </div>
+                </div>
+
+                <div className="Free_Jobs">
+                    <div className="datas_Jobs">
+                        <img src={previsao_tempo} alt="Projeto LISTA CRUD"></img>
+                    </div>
+
+                        <div className="experience_Jobs">
+                        <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
+                          <h3>LISTA CRUD - ORGANIZAÇÃO </h3></a>
+                            <p>
+                                Universidade Estácio de Sá
+                            </p>
+                        </div>
+                </div>
+
+                <div className="Free_Jobs">
+                    <div className="datas_Jobs">
+                        <img src={R_digital} alt="Projeto LISTA CRUD"></img>
+                    </div>
+
+                        <div className="experience_Jobs">
+                        <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
+                          <h3>LISTA CRUD - ORGANIZAÇÃO </h3></a>
+                            <p>
+                                Universidade Estácio de Sá
+                            </p>
+                        </div>
+                </div>
+
+                <div className="Free_Jobs">
+                    <div className="datas_Jobs">
+                        <img src={sorteio} alt="Projeto LISTA CRUD"></img>
+                    </div>
+
+                        <div className="experience_Jobs">
+                        <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
+                          <h3>LISTA CRUD - ORGANIZAÇÃO </h3></a>
+                            <p>
+                                Universidade Estácio de Sá
+                            </p>
+                        </div>
+                </div>
+
+                <div className="Free_Jobs">
+                    <div className="datas_Jobs">
+                        <img src={tela_login} alt="Projeto LISTA CRUD"></img>
+                    </div>
+
+                        <div className="experience_Jobs">
+                        <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
+                          <h3>LISTA CRUD - ORGANIZAÇÃO </h3></a>
+                            <p>
+                                Universidade Estácio de Sá
+                            </p>
+                        </div>
+                </div>
+
+                <div className="Free_Jobs">
+                    <div className="datas_Jobs">
+                        <img src={Thumb} alt="Projeto LISTA CRUD"></img>
                     </div>
 
                         <div className="experience_Jobs">
