@@ -59,5 +59,9 @@ const Aside = () => {
   )
   
 }
+/*function home(){
+  document.getElementById('home').innerHTML =
+}
+*/
 
 export default Aside

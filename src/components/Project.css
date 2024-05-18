@@ -2,7 +2,6 @@
     display: flex;
     padding-top: 0px ;
     padding-left: 100px;  
-    
 }
 .Jobs h1{
     color:  rgb(86, 136, 252);
@@ -16,6 +15,7 @@
 .Projetos{
     width: 80%;
     padding: 50px 55px;
+    
 }
 
 .title_Jobs{
@@ -30,9 +30,14 @@
     display: flex;
     padding: 20px 20px;
     justify-content: space-between;
+    
 }
 
-
+.line{
+    margin: 10px 0;
+    width: 100%;
+    border: .01rem solid #ccc;;
+}
 
 .Free_Jobs h3{
     background-color: transparent;
@@ -73,6 +78,7 @@
     display: flex;
     flex-direction: column;
     text-align: justify;
+    line-height: 25px;
 }
 /*
 .experience_Jobs:hover{
@@ -88,6 +94,7 @@
 
 .experience_Jobs a{
     text-decoration: none;
+    background-color: transparent;
 }
 
 .tecnology{

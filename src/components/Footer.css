@@ -1,3 +1,65 @@
-.works{
-    padding-left: 370px;
+.footer{
+    display: flex;
+    padding-top: 50px ;
+    padding-left: 150px;  
+    
+}
+.footer h1{
+    color:  rgb(86, 136, 252);
+}
+
+.caixa_vazia_footer{
+    width: 20%;
+    padding: 20px 150px;
+}
+
+.footer_footer{
+    width: 100%;
+    padding: 50px 55px;
+}
+
+.Free_footer{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-between;
+}
+
+
+
+.Free_footer h3{
+    background-color: transparent;
+}
+
+.experience_footer{
+    width: 70%;
+    padding: 20px 10px;
+}
+
+.experience_footer p {
+    font-size: 16px;
+    background-color: transparent;
+    color: #ccc;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.paragrafos{
+    background-color: transparent;
+}
+
+.paragrafos p{
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.paragrafos span{
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row !important;
+    text-align: justify;
 }

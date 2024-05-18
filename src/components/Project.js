@@ -1,6 +1,8 @@
 import React from 'react';
 
 //Importando imagens
+import Conversor from '../img/conversor_exa.jpg';
+import Conversor_unidade from '../img/conversor_unidade.jpg';
 import PPT from '../img/PPT.jpg';
 import Pokemon from '../img/pokemon.jpg';
 import CRUD  from '../img/CRUD.jpg';
@@ -26,6 +28,55 @@ const Project = () => {
           
           <div className="Free_Jobs">
                     <div className="datas_Jobs">
+                        <a href='https://hex-para-rgb.evertonfrankllin.com/' target='blank'>
+                            <img src={Conversor} alt="Projeto conversor de cores"></img>
+                        </a>
+                    </div>
+
+                        <div className="experience_Jobs">
+                        <a href="https://hex-para-rgb.evertonfrankllin.com/" target="blank">
+                          <h3>CONVERSOR DE CORES HEXADECIMAIS PARA RGB</h3></a>
+                            <p>
+                                Ferramenta Criada por mim para facilitar a minha vida e a de outros desenvolvedores no que diz respeito a agilidade
+                                na criação de projetos front-end. Esta ferramenta foi desenvolvida utilizando o maximo de minhas habilidades 
+                                em HTML, CSS e JAVASCRIPT. Eu convido você a utilizar, de forma gratuita, no link a baixo:<a href='https://hex-para-rgb.evertonfrankllin.com/'target='blank'>https://hex-para-rgb.evertonfrankllin.com/.</a>
+                                
+                                <div className='tecnology'>
+                                        <span>HTML 5</span> 
+                                        <span>CSS</span> 
+                                        <span>JAVASCRIPT</span>
+                                        <span>GIT</span>
+                                </div>
+                            </p>
+                        </div>
+                </div>
+
+                <div className="Free_Jobs">
+                    <div className="datas_Jobs">
+                        <a href='https://conversordeunidades.evertonfrankllin.com/' target='blank'>
+                            <img src={Conversor_unidade} alt="Projeto conversor de cores"></img>
+                        </a>
+                    </div>
+
+                        <div className="experience_Jobs">
+                        <a href="https://conversordeunidades.evertonfrankllin.com/" target="blank">
+                          <h3>CONVERSOR DE UNIDADES</h3></a>
+                            <p>
+                                Ferramenta Criada pensando na escalabilidade do projeto, afim de subir em produção uma versão mobile.
+                                Eu convido você a utilizar, de forma gratuita, no link a baixo:<a href='https://conversordeunidades.evertonfrankllin.com//'target='blank'>https://conversordeunidades.evertonfrankllin.com/.</a>
+                                
+                                <div className='tecnology'>
+                                        <span>HTML 5</span> 
+                                        <span>CSS</span> 
+                                        <span>JAVASCRIPT</span>
+                                        <span>GIT</span>
+                                </div>
+                            </p>
+                        </div>
+                </div>
+
+          <div className="Free_Jobs">
+                    <div className="datas_Jobs">
                         <img src={previsao_tempo} alt="Projeto LISTA CRUD"></img>
                     </div>
 
@@ -33,13 +84,18 @@ const Project = () => {
                         <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
                           <h3>PREVISÃO DO TEMPO</h3></a>
                             <p>
-                                Universidade Estácio de Sá
+                                Ao desenvolver este web App eu pude colocar em prática habilidades como, consumo de APIs,
+                            versionamento de código com git no terminal, utilização de freamworks como, React, utilização da
+                            ferramenta Vite para construção, criação e utilização de componentes e diversas outras habilidades que com certeza serão fundamentais na
+                            minha carreira. Com esse Projeto eu superei minhas expectativas quanto a utilização de lógica de 
+                            programação e javascript, foi muito enriquecedor.
+                            
                                 <div className='tecnology'>
                                         <span>REACT.JS</span> 
-                                        <span>GIT</span> 
+                                        <span>Vite</span>
                                         <span>CONSUMO DE APIs</span>
+                                        <span>GIT</span> 
                                         <span>RESPONSIVIDADE</span>
-                                        
                                     </div>
                             </p>
                         </div>
@@ -133,7 +189,15 @@ const Project = () => {
                         <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
                           <h3>CALCULADORA </h3></a>
                             <p>
-                                Nesta aplicação eu concieliei aprendizados importantes de front-end para qualquer profissional de técnologia
+                                Nesta aplicação eu conciliei aprendizados importantes de front-end para qualquer profissional de técnologia.
+                                Aprendi sobre manipulação de vetores (Arrays), condicionais, Loops, manipulação de DOM e pratiquei bastante 
+                                habilidade de web design com FlexBox.
+                                <div className='tecnology'>
+                                        <span>HTML 5</span> 
+                                        <span>CSS</span> 
+                                        <span>JAVASCRIPT</span>
+                                        <span>GIT</span>
+                                    </div>
 
                             </p>
                         </div>
@@ -146,9 +210,19 @@ const Project = () => {
 
                         <div className="experience_Jobs">
                         <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
-                          <h3>LISTA CRUD - ORGANIZAÇÃO </h3></a>
+                          <h3>LISTA DE ÍTENS </h3></a>
                             <p>
-                                Universidade Estácio de Sá
+                                Esta aplicação me proporcionou superar diversas barreiras de aprendizado, com ela eu pude solidificar
+                                alguns conhecimentos adquiridos ao longo da minha formação, pude fixar melhor os conceitos de pecepsão analitica
+                                e escalabilidade de negócio, foi um projeto que fiz com muito intuziasmo e 
+                                pretendo realizar a criação de um aplicativo nativo com essa mesma ideia, pois creio que facilitaria de mais a vida
+                                dos utilizadores.
+                                <div className='tecnology'>
+                                        <span>HTML 5</span> 
+                                        <span>CSS</span> 
+                                        <span>JAVASCRIPT</span>
+                                        <span>GIT</span>
+                                    </div>
                             </p>
                         </div>
                 </div>
@@ -160,9 +234,19 @@ const Project = () => {
 
                         <div className="experience_Jobs">
                         <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
-                          <h3>LISTA CRUD - ORGANIZAÇÃO </h3></a>
+                          <h3>SUPER MARIO BROS - GAME </h3></a>
                             <p>
-                                Universidade Estácio de Sá
+                                Foi com esse projeto que senti a necessidade de aprender mais sobre manipulação de DOM, foi aqui que senti que 
+                                eu precisava estudar muito mais para chegar onde quero chegar, além de ser o meu primeiro jogo feito com JS, está 
+                                aplicação também me mostrou que, por mais que pareça difícil, com dedicação e resiliência, poderemos alcançar 
+                                qualquer coisa.
+                                <div className='tecnology'>
+                                        <span>HTML 5</span> 
+                                        <span>CSS</span> 
+                                        <span>JAVASCRIPT</span>
+                                        <span>GIT</span>
+                                        <span>Desenvolvimento de Jogos</span>
+                                    </div>
                             </p>
                         </div>
                 </div>
@@ -175,9 +259,17 @@ const Project = () => {
 
                         <div className="experience_Jobs">
                         <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
-                          <h3>LISTA CRUD - ORGANIZAÇÃO </h3></a>
+                          <h3>RELÓGIO DIGITAL </h3></a>
                             <p>
-                                Universidade Estácio de Sá
+                                Com este projeto eu pude explorar funções nativas de JS e aprimorar esse conhecimento de forma prática
+                                e didática, conhecimento esse que acredito ser muito valioso no mercado atual.
+                                <div className='tecnology'>
+                                        <span>HTML 5</span> 
+                                        <span>CSS</span> 
+                                        <span>JAVASCRIPT</span>
+                                        <span>GIT</span>
+                                        <span>Desenvolvimento de Jogos</span>
+                                    </div>
                             </p>
                         </div>
                 </div>
@@ -189,9 +281,18 @@ const Project = () => {
 
                         <div className="experience_Jobs">
                         <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
-                          <h3>LISTA CRUD - ORGANIZAÇÃO </h3></a>
+                          <h3>NUMERO DA SORTE </h3></a>
                             <p>
-                                Universidade Estácio de Sá
+                                Com essa alicação eu aprendi bastante sobre math.randon map, math.floor, dominio e manipulação de dom, 
+                                eventos ao acaso, condicionais e muitos outras habilidades já citadas em outros projetos. Esta aplicação 
+                                me levou do 0 ao 100 em poucas linhas de código e abriu minha cabeça para novas possibilidades.
+                                <div className='tecnology'>
+                                        <span>HTML 5</span> 
+                                        <span>CSS</span> 
+                                        <span>JAVASCRIPT</span>
+                                        <span>GIT</span>
+                                        <span>LÓGICA</span>
+                                    </div>
                             </p>
                         </div>
                 </div>
@@ -203,9 +304,15 @@ const Project = () => {
 
                         <div className="experience_Jobs">
                         <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
-                          <h3>LISTA CRUD - ORGANIZAÇÃO </h3></a>
+                          <h3>TELA DE LOGIN - REACT </h3></a>
                             <p>
-                                Universidade Estácio de Sá
+                               Uma tela de login simples, mas completamente construída em React, projeto feito apenas para fixação de conteúdo
+                               <div className='tecnology'>
+                                        <span>HTML 5</span> 
+                                        <span>CSS</span> 
+                                        <span>REACT</span>
+                                        
+                                    </div>
                             </p>
                         </div>
                 </div>
@@ -217,12 +324,22 @@ const Project = () => {
 
                         <div className="experience_Jobs">
                         <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
-                          <h3>LISTA CRUD - ORGANIZAÇÃO </h3></a>
+                          <h3>CAPITURA DE THUMBNAIL </h3></a>
                             <p>
-                                Universidade Estácio de Sá
+                                Este projeto foi desenvolvido com intúito de monetização, pois é uma ferramenta de grande uso e que 
+                                seria bastante útil para aqueles que querem pegar uma imagem legal de um vídeo de YOUTUBE.
+                                Usei minhas habilidades em banco de dados e desenvolvi habilidades em PHP.
+                                <div className='tecnology'>
+                                        <span>HTML 5</span> 
+                                        <span>CSS</span> 
+                                        <span>JAVASCRIPT</span>
+                                        <span>PHP</span>
+                                        
+                                    </div>
                             </p>
                         </div>
                 </div>
+                <div className='line'></div>
 
           </div>
 
