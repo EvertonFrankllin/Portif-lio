@@ -14,7 +14,7 @@
 }
 
 .Projetos{
-    width: 70%;
+    width: 80%;
     padding: 50px 55px;
 }
 
@@ -39,9 +39,11 @@
 }
 
 .datas_Jobs{
+    display: flex;
     padding: 20px 0;
     background-color: transparent;
     width: 200px;
+    align-items: center;
 }
 
 .datas_Jobs img{
@@ -57,15 +59,20 @@
 }
 
 .experience_Jobs{
-    width: 65%;
+    width: 70%;
     padding: 20px 10px;
     border-left: #ccc 1PX solid;
+
 }
 
 .experience_Jobs p {
+    font-size: 16px;
     background-color: transparent;
     color: #ccc;
     margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
 }
 /*
 .experience_Jobs:hover{
@@ -81,4 +88,30 @@
 
 .experience_Jobs a{
     text-decoration: none;
+}
+
+.tecnology{
+    padding: 20px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+
+.tecnology span{
+    margin:20px 10px;
+    background: linear-gradient(90deg,rgb(14, 59, 114)0%,
+    rgb(86, 136, 252) 100%);
+    padding: 12px 20px;
+    border-radius: 50px;
+}
+
+.tecnology span:hover{
+    background: linear-gradient(90deg,rgb(86, 136, 252) 0%,
+    rgb(14, 59, 114) 100%);
+}
+
+.experience_Jobs:hover{
+    box-shadow: 0px 0px 60px .1px rgba(53, 53, 146, 0.342);
+    border-left: solid 1px #616be0 ;
+    background-color: rgba(101, 141, 235, 0.089);
 }

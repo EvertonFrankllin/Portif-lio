@@ -24,6 +24,27 @@ const Project = () => {
           <div className='Projetos'>
           <div className="title_Jobs"><h1>Projetos</h1></div>
           
+          <div className="Free_Jobs">
+                    <div className="datas_Jobs">
+                        <img src={previsao_tempo} alt="Projeto LISTA CRUD"></img>
+                    </div>
+
+                        <div className="experience_Jobs">
+                        <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
+                          <h3>PREVISÃO DO TEMPO</h3></a>
+                            <p>
+                                Universidade Estácio de Sá
+                                <div className='tecnology'>
+                                        <span>REACT.JS</span> 
+                                        <span>GIT</span> 
+                                        <span>CONSUMO DE APIs</span>
+                                        <span>RESPONSIVIDADE</span>
+                                        
+                                    </div>
+                            </p>
+                        </div>
+                </div>
+
                 <div className="Free_Jobs">
                     <div className="datas_Jobs">
                         <img src={PPT} alt="Projeto pedra papel e tesoUra"></img>
@@ -33,8 +54,19 @@ const Project = () => {
                         <a href="https://pedra-papel-e-tesoura-seven.vercel.app/" target="blank">
                           <h3>PEDRA PAPEL E TESOURA - GAME </h3></a>
                             <p>
-                                Universidade Estácio de Sá
+                                Uma ferramenta de entretenimento desenvolvida para aprimorar minhas habilidades
+                                de programação front-end. Com a criação dela eu tive a oprtunidade de colocar em prática
+                                conhecimentos e habilidades cruciais de Lógica de programação e javascript, como manipulação
+                                de DOM, embaralhamento e escolha ao acaso. 
+
+                                    <div className='tecnology'>
+                                        <span>HTML 5</span> 
+                                        <span>CSS</span> 
+                                        <span>JAVASCRIPT</span>
+                                        <span>GIT</span>
+                                    </div>
                             </p>
+
                         </div>
                 </div>
 
@@ -49,7 +81,17 @@ const Project = () => {
                         <a href="https://pokedex-j9ov.vercel.app/" target="blank">
                           <h3>POKEDEX COM JS PURO - ENTRETENIMENTO </h3></a>
                             <p>
-                                Universidade Estácio de Sá
+                                Neste aplicativo web eu pude aplicar  e aprimorar conhecimentos em consumo de APIs com validação em Fetch,
+                                manipulação de DOM, captação de evento com listen e lógica de programação. Do ponto de vista técnio foi Uma
+                                das aplicações mais desafiadoras, pois seu tive de fazer muitas validações que eu nunca tinha feito antes.
+                                <div className='tecnology'>
+                                        <span>HTML 5</span> 
+                                        <span>CSS</span> 
+                                        <span>JAVASCRIPT</span>
+                                        <span>FETCH</span>
+                                        <span>GIT</span>
+                                    </div>
+
                             </p>
                         </div>
                 </div>
@@ -63,7 +105,21 @@ const Project = () => {
                         <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
                           <h3>LISTA CRUD - ORGANIZAÇÃO </h3></a>
                             <p>
-                                Universidade Estácio de Sá
+                                Ao desenvolver essa aplicação CRUD, Eu pude obter uma visão holística do desenvolvimento de 
+                                software, abrangendo tanto aspectos técnicos quanto habilidades práticas que são 
+                                fundamentais para qualquer desenvolvedor, consegui aprender conceitos de banco de dados como, modelagem de dados.
+                                Pude desenvolvedor habilidades de back-end,consumo de APIs, como a criação de APIs Restfull para comunicação
+                                entre back e front, segurança, deploy e Devops, versionamento de código, git, teste unitário e de integração e 
+                                debug. Em resumo foi uma aplicação que me fez evoluir bastante como desenvolvedor.
+
+                                <div className='tecnology'>
+                                        <span>HTML 5</span> 
+                                        <span>CSS</span> 
+                                        <span>JAVASCRIPT</span>
+                                        <span>FETCH</span>
+                                        <span>APIs</span>
+                                        <span>GIT</span>
+                                    </div>
                             </p>
                         </div>
                 </div>
@@ -75,9 +131,10 @@ const Project = () => {
 
                         <div className="experience_Jobs">
                         <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
-                          <h3>LISTA CRUD - ORGANIZAÇÃO </h3></a>
+                          <h3>CALCULADORA </h3></a>
                             <p>
-                                Universidade Estácio de Sá
+                                Nesta aplicação eu concieliei aprendizados importantes de front-end para qualquer profissional de técnologia
+
                             </p>
                         </div>
                 </div>
@@ -110,19 +167,6 @@ const Project = () => {
                         </div>
                 </div>
 
-                <div className="Free_Jobs">
-                    <div className="datas_Jobs">
-                        <img src={previsao_tempo} alt="Projeto LISTA CRUD"></img>
-                    </div>
-
-                        <div className="experience_Jobs">
-                        <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
-                          <h3>LISTA CRUD - ORGANIZAÇÃO </h3></a>
-                            <p>
-                                Universidade Estácio de Sá
-                            </p>
-                        </div>
-                </div>
 
                 <div className="Free_Jobs">
                     <div className="datas_Jobs">
