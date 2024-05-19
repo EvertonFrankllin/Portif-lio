@@ -12,6 +12,48 @@ import PROJECT from'../img/WhiteProject.svg';
 import WORK from'../img/WhiteWork.svg';
 
 import "./Aside.css";
+//funções na page
+let Home = document.querySelectorAll('#carreira_scrool');
+let Carreira = document.querySelectorAll('#carreira_scrool');
+let Projetos = document.querySelectorAll('#carreira_scrool');
+
+
+  Home.forEach((item, index)=>{
+      document.querySelectorAll('#home_scrool')[index]
+      .addEventListener('click', ()=>{
+        //alert('Deu certo');
+            window.scroll({
+              top:0,
+              behavior:'smooth',
+          });
+      
+      });
+  });
+
+  Carreira.forEach((item, index)=>{
+    document.querySelectorAll('#carreira_scrool')[index]
+    .addEventListener('click', ()=>{
+      //alert('Deu certo');
+          window.scroll({
+            top:850,
+            behavior:'smooth',
+        });
+    
+    });
+  });
+
+  Projetos.forEach((item, index)=>{
+    document.querySelectorAll('#jobs_scrool')[index]
+    .addEventListener('click', ()=>{
+      //alert('Deu certo');
+          window.scroll({
+            top:2550,
+            behavior:'smooth',
+        });
+    });
+  });
+
+//troca cor
 
 const Aside = () => {
   return (
@@ -40,9 +82,9 @@ const Aside = () => {
       <div className='menu'>
       <nav className='MN'>
         <ul>
-            <li className='back'><img src={HOME} alt='IMAGEM DE HOME'></img> - Home</li>
-            <li className='back'><img src={WORK} alt='IMAGEM DE JOJETOS'></img> - Experiências</li>
-            <li className='back'><img src={PROJECT} alt='IMAGEM DE WORKS'></img> - Projetos</li>
+            <li id='home_scrool' className='back'><img src={HOME} alt='IMAGEM DE HOME'></img> - Home</li>
+            <li id='carreira_scrool' className='back'><img src={WORK} alt='IMAGEM DE JOJETOS'></img> - Experiências</li>
+            <li id='jobs_scrool' className='back'><img src={PROJECT} alt='IMAGEM DE WORKS'></img> - Projetos</li>
         </ul>
       </nav>
 
