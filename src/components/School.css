@@ -1,3 +1,7 @@
+*{
+    overflow-x: none;
+}
+
 .Schools{
     display: flex;
     padding-top: 0px ;
@@ -66,3 +70,43 @@
 .experience_school a{
     text-decoration: none;
 }
+
+/* Responsive Styles */
+@media screen and (max-width:1260px) {
+    .caixa_vazia_school{
+        display: none;
+    }
+    .Schools{
+        padding: 0 20px;
+    }
+    .Estudos{
+        width: 100%;
+        padding: 0;
+    }
+    
+ }
+
+ @media screen and (max-width: 700px){
+    .datas_school{
+        border-right: 0px transparent;
+        text-align: justify;
+        padding: 0;
+        width: 100%;
+    }
+    .datas_school h3{
+        border-left: 1px solid rgb(86, 136, 252);;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    .Free_School{
+        padding: 20px 0;
+        flex-direction: column;
+        border-bottom: 1px solid #ccc;
+    }
+    .title_school{
+        margin-top: 40px;
+        padding: 40px 0;
+    }
+ }
+     

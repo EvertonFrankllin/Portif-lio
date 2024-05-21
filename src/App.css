@@ -1,0 +1,18 @@
+*{
+    overflow-x: none;
+}
+
+/* Responsive Styles */
+@media screen and (max-width:1260px) {
+    .App{
+        display: flex;
+        flex-direction: column;
+     
+    }
+}
+
+@media screen and (max-width: 450px){
+    *{
+        overflow-x: none;
+    }
+}

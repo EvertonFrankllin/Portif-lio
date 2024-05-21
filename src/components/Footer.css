@@ -1,3 +1,7 @@
+*{
+    overflow-x: none;
+}
+
 .footer{
     display: flex;
     padding-top: 50px ;
@@ -62,4 +66,29 @@
     display: flex;
     flex-direction: row !important;
     text-align: justify;
+}
+
+@media screen and (max-width: 1260px){
+    .caixa_vazia_footer{
+        display: none;
+    }
+    .paragrafos p{
+        text-align: left;
+    }
+    
+}
+
+@media screen and (max-width: 900px){
+    *{
+        overflow-x: none;
+    }
+    .footer{
+        width: 100%;
+        justify-content: center;
+        padding-left: 0;
+    }
+}
+    .experience_footer{
+        padding: 0;    
+        width: 100%;
 }

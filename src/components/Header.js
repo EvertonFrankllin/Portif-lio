@@ -1,17 +1,17 @@
 import React from 'react'
 
 import "./Header.css";
-import letraE from "../img/everton.png";
+//import letraE from "../img/everton.png";
 
 const Header = () => {
   return (
-    <div className='header'>
+    <section id='home' className='header' >
         
-      <nav className='list'>
+      <nav className='list' >
         <ul>
             <a href='https://evertonfrankllin.com/recomendacoes.html' target='blank'><li>Recomendações</li></a>
             <a href='https://blog.evertonfrankllin.com/' target='blank'><li>Blog</li></a>
-            <a href='#' target='blank'><li>Contato</li></a>
+            <a href='https://evertonfrankllin.com/contato.html' target='blank'><li>Contato</li></a>
 
         </ul>
       </nav>
@@ -21,7 +21,7 @@ const Header = () => {
 
       </div>
     
-    </div>
+    </section>
 
     /**
      * 

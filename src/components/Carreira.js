@@ -5,13 +5,10 @@ const Carreira = () => {
   return (
     
 
-        <section className='Works'>
+        <section id='carreira' className='Works'>
             
             <div className="caixa_vazia"></div>
             
-
-
-
 
           <div className='Carreira'>
           <div className="title"><h1>Profissional</h1></div>

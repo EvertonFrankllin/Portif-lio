@@ -1,3 +1,7 @@
+*{
+    overflow-x: none;
+}
+
 /*Criando os estilos do cabeçalho*/
 .header {
     display: flex;
@@ -65,5 +69,27 @@
     width: 30px;
 }
 
+@media screen and (max-width:830px) {
+    .header{
+        display: flex;
+        padding: 40px 0 ;
+        justify-content:space-around;
+    }
+    .btn-cv{
+        padding-right:  10px;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    .header{
+        flex-direction: column;
+    }
+    .btn-cv{
+        padding-top:50px;
+    }
+    
+    
+}
 
 

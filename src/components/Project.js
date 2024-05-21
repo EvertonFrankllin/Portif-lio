@@ -19,8 +19,7 @@ import './Project.css';
 
 const Project = () => {
   return (
-    <div>
-      <section className='Jobs'>
+      <section id='jobs' className='Jobs'>
             <div className="caixa_vazia_Jobs"></div>
             
           <div className='Projetos'>
@@ -77,7 +76,9 @@ const Project = () => {
 
           <div className="Free_Jobs">
                     <div className="datas_Jobs">
-                        <img src={previsao_tempo} alt="Projeto LISTA CRUD"></img>
+                        <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
+                            <img src={previsao_tempo} alt="Projeto LISTA CRUD"></img>
+                        </a>
                     </div>
 
                         <div className="experience_Jobs">
@@ -103,7 +104,9 @@ const Project = () => {
 
                 <div className="Free_Jobs">
                     <div className="datas_Jobs">
-                        <img src={PPT} alt="Projeto pedra papel e tesoUra"></img>
+                        <a href="https://pedra-papel-e-tesoura-seven.vercel.app/" target="blank">
+                            <img src={PPT} alt="Projeto pedra papel e tesoUra"></img>
+                        </a>
                     </div>
 
                         <div className="experience_Jobs">
@@ -131,6 +134,7 @@ const Project = () => {
                         <a href="https://pokedex-j9ov.vercel.app/" target="blank">
                             <img src={Pokemon} alt="Projeto POKEDEX"></img>
                         </a>
+                        
                     </div>
 
                         <div className="experience_Jobs">
@@ -154,7 +158,9 @@ const Project = () => {
 
                 <div className="Free_Jobs">
                     <div className="datas_Jobs">
-                        <img src={CRUD} alt="Projeto LISTA CRUD"></img>
+                        <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
+                            <img src={CRUD} alt="Projeto LISTA CRUD"></img>
+                        </a>
                     </div>
 
                         <div className="experience_Jobs">
@@ -182,11 +188,13 @@ const Project = () => {
 
                 <div className="Free_Jobs">
                     <div className="datas_Jobs">
-                        <img src={Calculator} alt="Projeto LISTA CRUD"></img>
+                        <a href="https://calculadora-phi-azure.vercel.app/" target="blank">
+                            <img src={Calculator} alt="Projeto LISTA CRUD"></img>
+                        </a>
                     </div>
 
                         <div className="experience_Jobs">
-                        <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
+                        <a href="https://calculadora-phi-azure.vercel.app/" target="blank">
                           <h3>CALCULADORA </h3></a>
                             <p>
                                 Nesta aplicação eu conciliei aprendizados importantes de front-end para qualquer profissional de técnologia.
@@ -205,11 +213,13 @@ const Project = () => {
 
                 <div className="Free_Jobs">
                     <div className="datas_Jobs">
-                        <img src={Lista_itens} alt="Projeto LISTA CRUD"></img>
+                        <a href="https://lista-de-produtos-iota.vercel.app/" target="blank">
+                            <img src={Lista_itens} alt="Projeto LISTA CRUD"></img>
+                        </a>
                     </div>
 
                         <div className="experience_Jobs">
-                        <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
+                        <a href="https://lista-de-produtos-iota.vercel.app/" target="blank">
                           <h3>LISTA DE ÍTENS </h3></a>
                             <p>
                                 Esta aplicação me proporcionou superar diversas barreiras de aprendizado, com ela eu pude solidificar
@@ -229,11 +239,13 @@ const Project = () => {
 
                 <div className="Free_Jobs">
                     <div className="datas_Jobs">
-                        <img src={mario_game} alt="Projeto LISTA CRUD"></img>
+                        <a href="https://mario-ochre.vercel.app/" target="blank">
+                            <img src={mario_game} alt="Projeto LISTA CRUD"></img>
+                        </a>
                     </div>
 
                         <div className="experience_Jobs">
-                        <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
+                        <a href="https://mario-ochre.vercel.app/" target="blank">
                           <h3>SUPER MARIO BROS - GAME </h3></a>
                             <p>
                                 Foi com esse projeto que senti a necessidade de aprender mais sobre manipulação de DOM, foi aqui que senti que 
@@ -254,11 +266,13 @@ const Project = () => {
 
                 <div className="Free_Jobs">
                     <div className="datas_Jobs">
-                        <img src={R_digital} alt="Projeto LISTA CRUD"></img>
+                        <a href="https://relogio-digital-five-lyart.vercel.app/" target="blank">
+                            <img src={R_digital} alt="Projeto LISTA CRUD"></img>
+                        </a>
                     </div>
 
                         <div className="experience_Jobs">
-                        <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
+                        <a href="https://relogio-digital-five-lyart.vercel.app/" target="blank">
                           <h3>RELÓGIO DIGITAL </h3></a>
                             <p>
                                 Com este projeto eu pude explorar funções nativas de JS e aprimorar esse conhecimento de forma prática
@@ -276,11 +290,13 @@ const Project = () => {
 
                 <div className="Free_Jobs">
                     <div className="datas_Jobs">
-                        <img src={sorteio} alt="Projeto LISTA CRUD"></img>
+                        <a href="https://numero-da-sorte.vercel.app/" target="blank">
+                            <img src={sorteio} alt="Projeto LISTA CRUD"></img>
+                        </a>
                     </div>
 
                         <div className="experience_Jobs">
-                        <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
+                        <a href="https://numero-da-sorte.vercel.app/" target="blank">
                           <h3>NUMERO DA SORTE </h3></a>
                             <p>
                                 Com essa alicação eu aprendi bastante sobre math.randon map, math.floor, dominio e manipulação de dom, 
@@ -299,11 +315,13 @@ const Project = () => {
 
                 <div className="Free_Jobs">
                     <div className="datas_Jobs">
-                        <img src={tela_login} alt="Projeto LISTA CRUD"></img>
+                        <a href="https://tela-de-login-com-react.vercel.app/" target="blank">
+                             <img src={tela_login} alt="Projeto LISTA CRUD"></img>
+                        </a>
                     </div>
 
                         <div className="experience_Jobs">
-                        <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
+                        <a href="https://tela-de-login-com-react.vercel.app/" target="blank">
                           <h3>TELA DE LOGIN - REACT </h3></a>
                             <p>
                                Uma tela de login simples, mas completamente construída em React, projeto feito apenas para fixação de conteúdo
@@ -319,11 +337,13 @@ const Project = () => {
 
                 <div className="Free_Jobs">
                     <div className="datas_Jobs">
-                        <img src={Thumb} alt="Projeto LISTA CRUD"></img>
+                        <a href="https://monetizacao-thumb.vercel.app/" target="blank">
+                            <img src={Thumb} alt="Projeto LISTA CRUD"></img>
+                        </a>
                     </div>
 
                         <div className="experience_Jobs">
-                        <a href="https://crud-ojmn20rbk-evertons-projects-b52b3696.vercel.app/?" target="blank">
+                        <a href="https://monetizacao-thumb.vercel.app/" target="blank">
                           <h3>CAPITURA DE THUMBNAIL </h3></a>
                             <p>
                                 Este projeto foi desenvolvido com intúito de monetização, pois é uma ferramenta de grande uso e que 
@@ -344,7 +364,6 @@ const Project = () => {
           </div>
 
         </section>
-    </div>
   )
 }
 

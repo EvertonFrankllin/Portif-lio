@@ -1,9 +1,12 @@
+*{
+    overflow-x: none;
+}
+
 /* Base Styles */
 .container {
     display: flex;
-    justify-content: space-between;
     padding: 0 40px; /* Reduced padding for smaller screens */
-    
+    font-weight: 0;
 }
 
 .context {
@@ -89,15 +92,19 @@
     display: flex;
     flex-direction: column;
     padding: 0;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
 }
 
 .MN li {
+    width: 100%;
     list-style: none;
     margin: 10px 0;
     font-size: 20px;
     cursor: pointer;
-    padding: 0px 0;
-    text-align: justify;
+    padding: 5px 10px;
+    text-align: left;
 }
 
 .MN a {
@@ -108,51 +115,92 @@
 .MN img {
     width: 30px;
     margin-right: 5px;
+    background-color: transparent;
 }
+
+.MN li:hover{
+    background-color: rgba(86, 136, 252, 0.137);
+}
+
+
 
 /* Responsive Styles */
+
 @media screen and (max-width:1260px) {
-   .container{
-    padding: 0 0px;
-   }
-   .context{
-    width: 100%;
-    padding: 0;
-   }
-   .meu_nome{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding: 5px 0 !important;
-   }
-
-   .social{
-    display: flex;
-    justify-content: center; /* Adjusted for smaller screens */
-    padding: 15px 20px;
-    margin: 0 10px;
-   }
-
-   .social img{
-    margin: 0 10px;
-   }
-
-    .MN {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px 0;
-    text-align: center;
-}
-    .MN ul {
-    text-align: center;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    padding:0 20px;
-}
-    .MN li{
-        padding: 0 20px;
-}
    
+    .container{
+     padding: 10px 0px;
+    }
+    .context{
+    position: relative;
+     width: 100%;
+     padding: 0px 0px;
+     margin: 0px;
+    }
+    .meu_nome{
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     padding: 5px 0 !important;
+    }
+ 
+    .social{
+     display: flex;
+     justify-content: center; /* Adjusted for smaller screens */
+     padding: 15px 2px;
+     margin: 0 10px;
+    }
+ 
+    .social img{
+     margin: 0 10px;
+    }
+ 
+     .MN {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 10px 0;
+     text-align: left;
+ }
+     .MN ul {
+     display: flex;
+     flex-direction: row;
+     padding:0 20px;
+ }
+     .MN li{
+         padding: 0 20px;
+ }
+    
+ }
+
+ @media screen and (max-width:700px) {
+    .MN li {
+        font-size: 15px;
+    }
+    .foto img{
+        width: 150px;
+    }
+    
 }
+
+@media screen and (max-width:500px) {
+    .MN{
+        text-align: left;
+    }
+    .MN ul {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+    }
+    .MN li {
+        display: flex;
+        text-align: justify;
+    }
+    .context {
+        text-align: center;
+        top: 10px;
+        left: 0;
+        padding: 10px 0px;
+    }
+}
+ 

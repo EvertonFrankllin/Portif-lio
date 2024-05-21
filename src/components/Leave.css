@@ -1,3 +1,6 @@
+*{
+    overflow-x: none;
+}
 /*Seção de conteúdos*/
 .front{
     display: flex;
@@ -5,6 +8,7 @@
     padding: 80px 60px;
     width: 80%;
     position:relative;
+    background-color: transparent;
 }
 
 .logo{
@@ -42,5 +46,27 @@
     display: flex;
     justify-content:right;
     padding:0 100px;
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width:1260px) {
+   .front{
+    width: 100%;
+    padding: 10px;
+   }
+   .container-leave{
+    display: flex;
+    justify-content:center;
+    padding:80px 50px;
+    align-items: center;
+}
+    
+}
+@media screen and (max-width: 700px) {
+    .text p{
+        color: #ccc;
+        text-align: left;
+    }
 }
 

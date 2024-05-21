@@ -13,8 +13,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Leave />
       <Aside />
+      <Leave />
       <Carreira />
       <School />
       <Project />
