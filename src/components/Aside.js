@@ -13,45 +13,43 @@ import WORK from'../img/WhiteWork.svg';
 
 import "./Aside.css";
 //funções na page
-let Home = document.querySelectorAll('#carreira_scrool');
-let Carreira = document.querySelectorAll('#carreira_scrool');
-let Projetos = document.querySelectorAll('#carreira_scrool');
 
-
+const Home = document.querySelectorAll('#carreira_scrool');
+const center = document.querySelectorAll('#carreira_scrool');
+const back = document.querySelectorAll('#carreira_scrool');
+scroll_page();
+function scroll_page(){
   Home.forEach((item, index)=>{
       document.querySelectorAll('#home_scrool')[index]
       .addEventListener('click', ()=>{
-        //alert('Deu certo');
             window.scroll({
               top:0,
               behavior:'smooth',
           });
-      
       });
   });
 
-  Carreira.forEach((item, index)=>{
+  center.forEach((item, index)=>{
     document.querySelectorAll('#carreira_scrool')[index]
     .addEventListener('click', ()=>{
-      //alert('Deu certo');
           window.scroll({
             top:850,
             behavior:'smooth',
         });
-    
     });
-  });
+});
 
-  Projetos.forEach((item, index)=>{
-    document.querySelectorAll('#jobs_scrool')[index]
-    .addEventListener('click', ()=>{
-      //alert('Deu certo');
-          window.scroll({
-            top:2550,
-            behavior:'smooth',
-        });
-    });
+back.forEach((item, index)=>{
+  document.querySelectorAll('#jobs_scrool')[index]
+  .addEventListener('click', ()=>{
+        window.scroll({
+          top:2500,
+          behavior:'smooth',
+      });
   });
+});
+}
+
 
 //troca cor
 

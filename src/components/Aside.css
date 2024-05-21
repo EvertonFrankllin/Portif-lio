@@ -1,142 +1,158 @@
-.container{
+/* Base Styles */
+.container {
     display: flex;
     justify-content: space-between;
-    padding:0 100px;
-}
-
-.context{
-    margin-top: -750px;
-    padding: 60px 0px;
-    width: 19%;
-    text-align: center;
-    position:fixed;
-}
-
-.foto img{
-    width: 150px;
-
-}
-
-.line{
-    margin: 10px 0;
-    width: 100%;
-    border: .01rem solid #ccc;;
-}
-
-.meu_nome {
-    width: 100%;
-    text-align: center;
-    padding: 0px 40px;
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-    color: rgb(128, 0, 255);
-}
-
-
-.context h4{
-    font-weight: normal;
-}
-
-.meu_nome img{
-    position: relative;
-    width: 35px;
-}
-
-/*Ajustando SOCIAL*/
-.social{
-    display: flex;
-    padding: 25px 30px;
-    justify-content: space-between;
-
-}
-
-.social img{
-    outline: none;
-    width: 30px;
+    padding: 0 40px; /* Reduced padding for smaller screens */
     
 }
 
-.social .linkedin,
-.ig,
-.git,
-.EMAIL:hover[title]{
+.context {
+    background-color: transparent;
+    margin-left: 35px;
+    text-align: center;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    padding: 60px 50px;
+}
+
+.foto img {
+    width: 100px; /* Adjusted for smaller screens */
+}
+
+.line {
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.meu_nome {
+    display: flex;
+    text-align: center;
+    color: rgb(128, 0, 255);
+    padding: 0 20px; /* Adjusted for smaller screens */
+}
+
+.meu_nome img {
+    width: 35px;
+    margin-right: 5px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around; /* Adjusted for smaller screens */
+    padding: 15px 0;
+}
+
+.social img {
+    width: 25px; /* Adjusted for smaller screens */
+}
+
+.social a:hover {
     color: blue;
 }
 
-[aria-label]{
+[aria-label] {
     position: relative;
 }
 
-[aria-label]::after{
+[aria-label]::after {
     content: attr(aria-label);
     display: none;
     position: absolute;
     top: 115%;
-    left: -50px;
-    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 5000;
     pointer-events: none;
     padding: 6px 10px;
     white-space: nowrap;
-    text-decoration: none;
     font-size: 1rem;
     color: #fff;
-    background: linear-gradient(90deg, rgb(86, 136, 252) 0%,
-    rgb(14, 59, 114)100%);
+    background: linear-gradient(90deg, rgb(86, 136, 252) 0%, rgb(14, 59, 114) 100%);
     text-align: center;
     border-radius: 30px;
-    transform: 2s linear ease-in-out infinite;
 }
 
-[aria-label]:hover::after{
+[aria-label]:hover::after {
     display: block;
 }
 
-/*Lista do menu*/
-
-.menu .MN{
-    display: flex;
-    width: 100%;
-    text-align: justify;
-    justify-content: center;
-    flex-direction: column;
-    padding: 20px 0;
-}
-
-.MN ul{
+.menu .MN {
     display: flex;
     flex-direction: column;
-}
-
-.MN li{
-    display: flex;
     align-items: center;
-    list-style: none;
-    margin: 0px 20px;
-    text-align:justify ;
     padding: 10px 0;
+}
+
+.MN ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.MN li {
+    list-style: none;
+    margin: 10px 0;
     font-size: 20px;
     cursor: pointer;
+    padding: 0px 0;
+    text-align: justify;
 }
 
-.MN a{
-    list-style: none;
+.MN a {
     text-decoration: none;
+    color: inherit;
 }
 
-.back:hover{
-    background-color: rgba(86, 136, 252, 0.089);
-    
-}
-
-.MN img{
-    position: relative;
+.MN img {
     width: 30px;
-    margin: 0 0px 0 0;
-    padding: 2px;
-    background-color: transparent;
+    margin-right: 5px;
 }
 
+/* Responsive Styles */
+@media screen and (max-width:1260px) {
+   .container{
+    padding: 0 0px;
+   }
+   .context{
+    width: 100%;
+    padding: 0;
+   }
+   .meu_nome{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 !important;
+   }
 
+   .social{
+    display: flex;
+    justify-content: center; /* Adjusted for smaller screens */
+    padding: 15px 20px;
+    margin: 0 10px;
+   }
+
+   .social img{
+    margin: 0 10px;
+   }
+
+    .MN {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0;
+    text-align: center;
+}
+    .MN ul {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding:0 20px;
+}
+    .MN li{
+        padding: 0 20px;
+}
+   
+}
