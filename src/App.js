@@ -8,6 +8,8 @@ import School from './components/School';
 import Project from './components/Project';
 import Footer from './components/Footer';
 
+import letraE from'../src/img/E.svg';
+
 
 function App() {
   return (
