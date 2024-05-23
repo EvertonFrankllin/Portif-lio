@@ -37,11 +37,14 @@
     border-left: 1px solid #ccc;
     list-style: none;
     text-decoration: none;
+    cursor: pointer;
 }
 
 /*Estilizando Botões*/
 
 .btn-cv{
+    display: flex;
+    flex-direction: column;
     padding-right:  160px;
 }
 
@@ -58,10 +61,35 @@
 }
 
 .btn-cv button:hover{
-    
     background: linear-gradient(90deg, rgb(22, 87, 165) 0%,
     rgb(86, 136, 252) 100%);
 }
+
+.ajuste_btn{
+    text-align: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-cv1 button,
+.btn-cv2 button{
+    margin: 2px 0;
+    width: 90px;
+    padding: 5px;
+}
+
+.btn-cv1 a,
+.btn-cv2 a{
+    cursor: pointer;
+}
+
+
+
 
 /*Criando os estilos da logo*/
 

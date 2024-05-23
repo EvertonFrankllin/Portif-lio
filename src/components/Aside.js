@@ -70,7 +70,7 @@ const Aside = () => {
             </a>
           </div>
           <div className='EMAIL'>
-            <a href='https://github.com/EvertonFrankllin' target='blank' aria-label="evertonfrankllintrc@gmail.com">
+            <a href='evertonfrankllintrc@gmail.com' target='blank' aria-label="evertonfrankllintrc@gmail.com">
               <img src={EMAIL} alt='Imagem do EMAIL'></img>
             </a>
           </div>
