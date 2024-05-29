@@ -11,7 +11,7 @@ const leave = () => {
       <section className='HOME'>
         <div className='text'>
         <p>
-          Por volta de 2014, comecei a explorar o mundo da tecnologia quando ganhei meu primeiro "Notebook". Naquela época, eu não tinha internet em casa, então a única coisa que dava para fazer era mexer nas pastas do sistema, como a famosa "SYSTEM-32", ou nos aplicativos já pré-instalados no "Notebook". Com isso, consegui absorver muita informação sobre o que era programação, como funcionava e para que servia.
+          Por volta de 2010, comecei a explorar o mundo da tecnologia quando ganhei meu primeiro "Notebook". Naquela época, eu não tinha internet em casa, então a única coisa que dava para fazer era mexer nas pastas do sistema, como a famosa "SYSTEM-32", ou nos aplicativos já pré-instalados no "Notebook". Com isso, consegui absorver muita informação sobre o que era programação, como funcionava e para que servia.
           <br/><br/>
           Em 2015, no finalzinho do ano, consegui uma bolsa pelo <span>PRONATEC</span> para estudar redes de computadores no <span>Senai BA</span> pelo <span>sistema FIEB</span>. Lá, aprendi muita coisa sobre redes, IP, DNS, AD, cabeamento estruturado, VPN, servidores e muito mais. Tive a oportunidade de conhecer outros sistemas operacionais, como o <span>LINUX</span>, e também configurar alguns servidores baseados nessa arquitetura, como <span>VOIP</span> e outros.
           <br/><br/>
