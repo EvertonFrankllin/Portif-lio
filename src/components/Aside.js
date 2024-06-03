@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Copy from './Copy';
 // Importando Imagens
 import logo from '../img/Perfil.png';
 import IG from '../img/WhiteInsta.svg';
@@ -10,6 +10,7 @@ import VERIFICADO from '../img/verificar.png';
 import HOME from '../img/WhiteHome.svg';
 import PROJECT from '../img/WhiteProject.svg';
 import WORK from '../img/WhiteWork.svg';
+
 
 import "./Aside.css";
 
@@ -87,10 +88,11 @@ const Aside = () => {
             </ul>
           </nav>
           <div className='line'></div>
+            <Copy style={{ paddingTop: 20 }} />
         </div>
 
       </aside>
-
+      
     </div> //container
 
     //Outras sessões Futuras

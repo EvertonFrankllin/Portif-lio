@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import Lista from './ListHorizon';
 
 import "./Header.css";
 //import letraE from "../img/everton.png";
@@ -15,14 +15,7 @@ const Header = () => {
     
     <section id='home' className='header' >
         
-      <nav className='list' >
-        <ul>
-            <a href='https://evertonfrankllin.com/recomendacoes.html' target='blank'><li>Recomendações</li></a>
-            <a href='https://blog.evertonfrankllin.com/' target='blank'><li>Blog</li></a>
-            <a href='https://evertonfrankllin.com/contato.html' target='blank'><li>Contato</li></a>
-
-        </ul>
-      </nav>
+      <Lista rec="Recomendações" blog="Blog" contato='Contato' />
 
       <div className='btn-cv'onClick={cv_visivel}>
         {isVisible ? "":''}
@@ -41,12 +34,6 @@ const Header = () => {
     
     </section>
 
-    /**
-     * 
-     * <div className='logo'>
-            <img src={letraE} alt='Imagem do meu nome'></img>
-        </div>
-     */
   )
   
 }

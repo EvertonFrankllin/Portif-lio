@@ -1,4 +1,5 @@
 import React from 'react'
+import Copy from './Copy';
 
 import "./Footer.css";
 
@@ -17,7 +18,7 @@ const Footer = () => {
                                         <p>
                                         Este projeto de portfólio foi concebido com base em ideias próprias e inspirações externas, e o código foi desenvolvido no Visual Studio Code (VS Code). As tecnologias utilizadas foram React.js e CSS puro.
                                               <p>Feito com Amor ❤️ - by Everton Frankllin </p>
-                                              <p>© 2024 - Everton Frankllin Pereira SIlva</p> 
+                                              <Copy />
                                         </p>  
                                       </div>
                             
