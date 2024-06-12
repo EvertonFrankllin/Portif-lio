@@ -80,15 +80,19 @@ const Aside = () => {
         <div className='line'></div>
 
         <div className='menu'>
+          
           <nav className='MN'>
             <ul>
-              <a id='h' href='#home' onClick={handleClick}><li  className='back'><img src={HOME} alt='IMAGEM DE HOME'></img> - Home</li></a>
-              <a id='c' href='#carreira' onClick={handleClick}><li  className='back'><img src={WORK} alt='IMAGEM DE JOJETOS'></img> - Experiências</li></a>
-              <a id='j' href='#jobs' onClick={handleClick}><li  className='back'><img src={PROJECT} alt='IMAGEM DE WORKS'></img> - Projetos</li></a>
+              <a href='#home' onClick={handleClick}><li  className='back'><img src={HOME} alt='IMAGEM DE HOME'></img> - Home</li></a>
+              <a href='#carreira' onClick={handleClick}><li  className='back'><img src={WORK} alt='IMAGEM DE JOJETOS'></img> - Experiências</li></a>
+              <a href='#jobs' onClick={handleClick}><li  className='back'><img src={PROJECT} alt='IMAGEM DE WORKS'></img> - Projetos</li></a>
             </ul>
           </nav>
+
           <div className='line'></div>
+
             <Copy style={{ paddingTop: 20 }} />
+
         </div>
 
       </aside>
