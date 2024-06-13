@@ -1,18 +1,19 @@
 import React from 'react';
-import Copy from './Copy';
+import Copy from '../Copy/Copy';
+
 // Importando Imagens
-import logo from '../img/Perfil.png';
-import IG from '../img/WhiteInsta.svg';
-import LINKEDIN from '../img/WhiteLinkedin.svg';
-import GH from '../img/WhiteGithub.svg';
-import EMAIL from '../img/WhiteEmail (1).svg';
-import VERIFICADO from '../img/verificar.png';
-import HOME from '../img/WhiteHome.svg';
-import PROJECT from '../img/WhiteProject.svg';
-import WORK from '../img/WhiteWork.svg';
+import logo from '../../img/Perfil.png';
+import IG from '../../img/WhiteInsta.svg';
+import LINKEDIN from '../../img/WhiteLinkedin.svg';
+import GH from '../../img/WhiteGithub.svg';
+import EMAIL from '../../img/WhiteEmail (1).svg';
+import VERIFICADO from '../../img/verificar.png';
+import HOME from '../../img/WhiteHome.svg';
+import PROJECT from '../../img/WhiteProject.svg';
+import WORK from '../../img/WhiteWork.svg';
 
 
-import "./Aside.css";
+import "./Home.css";
 
 function handleClick(e) {
   e.preventDefault();

@@ -1,7 +1,7 @@
 import React from 'react'
 
-import letraE from "../img/E.svg";
-import './Leave.css';
+import letraE from "../../img/E.svg";
+import './Aboult.css';
 
 const leave = () => {
   return (

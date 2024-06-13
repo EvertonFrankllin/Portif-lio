@@ -1,9 +1,10 @@
 
+// import PropsCarreira from '../ContextProps/PropsCarreira'
+
 import "./Carreira.css";
 
 const Carreira = () => {
   return (
-    
 
         <section id='carreira' className='Works'>
             
@@ -24,6 +25,8 @@ const Carreira = () => {
                         </div>
                 </div>
 
+                            {/* Divisão */} 
+                            
                 <div className="Freelancer">
                     <div className="datas">
                         <h3>2021 - 2023</h3>

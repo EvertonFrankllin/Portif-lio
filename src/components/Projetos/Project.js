@@ -1,19 +1,19 @@
 import React from 'react';
 
 //Importando imagens
-import Conversor from '../img/conversor_exa.jpg';
-import Conversor_unidade from '../img/conversor_unidade.jpg';
-import PPT from '../img/PPT.jpg';
-import Pokemon from '../img/pokemon.jpg';
-import CRUD  from '../img/CRUD.jpg';
-import Calculator from'../img/calculator.jpg';
-import Lista_itens from'../img/lista_itens.jpg';
-import mario_game from'../img/mario_game.jpg';
-import previsao_tempo from'../img/previsao_tempo.jpg';
-import R_digital from'../img/R_digital.jpg';
-import sorteio from '../img/sorteio.jpg';
-import tela_login from'../img/tela_login.jpg';
-import Thumb from'../img/thumb.jpg';
+import Conversor from '../../img/conversor_exa.jpg';
+import Conversor_unidade from '../../img/conversor_unidade.jpg';
+import PPT from '../../img/PPT.jpg';
+import Pokemon from '../../img/pokemon.jpg';
+import CRUD  from '../../img/CRUD.jpg';
+import Calculator from'../../img/calculator.jpg';
+import Lista_itens from'../../img/lista_itens.jpg';
+import mario_game from'../../img/mario_game.jpg';
+import previsao_tempo from'../../img/previsao_tempo.jpg';
+import R_digital from'../../img/R_digital.jpg';
+import sorteio from '../../img/sorteio.jpg';
+import tela_login from'../../img/tela_login.jpg';
+import Thumb from'../../img/thumb.jpg';
 
 import './Project.css';
 
