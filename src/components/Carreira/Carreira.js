@@ -17,7 +17,7 @@ const Carreira = () => {
                 <div className="Freelancer">
                     <div className="datas"><h3>2023 - Presente</h3></div>
                         <div className="experience">
-                        <h3>Desenvolvedor Front-end - FREELANCER </h3>
+                        <h3>Desenvolvedor Front-end - CONSULTOR INDEPENDENTE </h3>
                             <p>
                                 Atualmente estou trabalhando como desenvolvedor front-end freelancer, atuando em projetos de pequeno, médio e grande porte.
                                 De forma independente, atuo com o desenvolvimento de software de ponta a ponta, desde o levantamento de requisitos com as partes envolvidas no projeto, prototipação, codificação no lado do cliente e servidor, testes, documentação, implementação, até a apresentação para o cliente final, utilizando linguagens fortes no mercado, sempre atualizado e a nível de exigência internacional, trabalhando com metodologias ágeis.
