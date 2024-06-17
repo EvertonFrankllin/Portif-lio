@@ -15,8 +15,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Aboult />
       <Home />
+      <Aboult />
       <Carreira />
       <School />
       <Project />
